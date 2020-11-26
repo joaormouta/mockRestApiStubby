@@ -1,0 +1,26 @@
+{
+  "name": "mockrestapistubby",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "testYML": "npx stubby -d ./endpoints.yml -l 127.0.0.1",
+    "testJS": "npx ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaormouta/mockRestApiStubby.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaormouta/mockRestApiStubby/issues"
+  },
+  "homepage": "https://github.com/joaormouta/mockRestApiStubby#readme",
+  "dependencies": {
+    "stubby": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}

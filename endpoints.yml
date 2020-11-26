@@ -1,0 +1,14 @@
+-  request:
+      url: /directory/endpoint
+      method: GET
+   response:
+      file: jsons/pessoas.json
+      headers:
+         content-type: application/json
+- request:
+      url: /endpoint
+      method: GET
+  response:
+      file: package.json
+      headers:
+         content-type: application/json
